@@ -1,0 +1,11 @@
+object TesteMedia {
+
+  def main(args: Array[String]): Unit = {
+    val n1 = 9.0
+    val n2 = 8.0
+   var media = (n1 + n2) / 2 
+    if (media >= 7)
+       println("Aprovado!")
+  }
+
+}

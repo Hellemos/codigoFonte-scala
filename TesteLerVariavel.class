@@ -1,0 +1,7 @@
+object TesteLerVariavel {
+
+  def main(args: Array[String]): Unit = {
+    var nome = readLine
+  }
+
+}

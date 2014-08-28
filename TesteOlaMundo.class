@@ -1,0 +1,5 @@
+object OlaMundo {
+  def main(args: Array[String]) {
+	  println("Olá, Mundo!")
+  }
+}

@@ -1,0 +1,6 @@
+object TesteVariavel {
+
+  def main(args: Array[String]): Unit = {
+    var numero = 12
+  }
+}
