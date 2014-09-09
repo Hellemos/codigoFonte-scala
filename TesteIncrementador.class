@@ -1,7 +1,6 @@
 object TesteIncrementador {
 
   def main(args: Array[String]): Unit = {
-    println("Digite um numero: ")
     var numero = readInt
     while(numero < 10){
       numero +=1

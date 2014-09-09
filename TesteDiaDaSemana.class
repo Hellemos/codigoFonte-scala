@@ -1,18 +1,12 @@
 object TesteDiaDaSemana {
 
   def main(args: Array[String]): Unit = {
-    println("Que dia da semana deseja escolher?")
-    var diaDaSemana = readLine
+    var op = readInt
 
-    diaDaSemana match {
-      case "Domingo" => println("Você escolheu Domingo")
-      case "Segunda" => println("Você escolheu Segunda")
-      case "Terça" => println("Você escolheu Terça")
-      case "Quarta" => println("Você escolheu Quarta")
-      case "Quinta" => println("Você escolheu Quinta")
-      case "Sexta" => println("Você escolheu Sexta")
-      case "Sábado" => println("Você escolheu Sábado")
-      case default => println("Este valor nao existe! Tente digitar a palavra com a primeira letra maiuscula!")
+    op match {
+      case 1 => println("Você escolheu Domingo")
+      case 2 => println("Você escolheu Segunda")
+      case 3 => println("Você escolheu Terça")
     }
   }
 
